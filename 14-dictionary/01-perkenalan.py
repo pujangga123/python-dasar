@@ -1,16 +1,13 @@
-pertemuan_hari_ini = {
-  "judul": "Belajar Dictionary Pada Python 3",
-  "tanggal": "01 Februari 2021",
-  "kategori": [
-    "Python", "Python Dasar"
-  ],
-  "page_views": 10,
-  "published": True,
-  "share_count": {
-    "facebook": 0,
-    "twitter": 2
-  }
+# dictionary: daftar grade
+list_grade = {
+  "a" : "Sangat Baik",
+  "b" : "Baik",
+  "c" : "Cukup",
+  "d" : "Kurang",
+  "e" : "Tidak Lulus"
 }
 
-print("Type:", type(pertemuan_hari_ini))
-print(pertemuan_hari_ini)
+grade = input("Grade Anda (a/b/c/d/e)?")
+
+# menampilkan elemen dari list_grade berdasarkan input user (grade)
+print("Hasil :", list_grade[grade])
