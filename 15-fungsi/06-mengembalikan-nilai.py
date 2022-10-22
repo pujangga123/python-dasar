@@ -11,4 +11,4 @@ print('Luas persegi dengan sisi 4 adalah:', luas_persegi(4))
 persegi_besar = luas_persegi(100)
 persegi_kecil = luas_persegi(50)
 
-print('Toal luas persegi besar dan kecil adalah:', persegi_besar + persegi_kecil)
+print('Total luas persegi besar dan kecil adalah:', persegi_besar + persegi_kecil)
