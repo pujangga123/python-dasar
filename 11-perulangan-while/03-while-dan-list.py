@@ -3,7 +3,7 @@ listKota = [
   'Jogjakarta', 'Semarang', 'Makassar'
 ]
 
-# bermain index
+# menggunakan index
 i = 0
 while i < len(listKota):
   print(listKota[i])
@@ -11,6 +11,6 @@ while i < len(listKota):
 
 print('----------------')
 
-# bermain pop
+# menggunakan pop
 while listKota:
   print(listKota.pop(0))

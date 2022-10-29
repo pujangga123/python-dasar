@@ -3,12 +3,12 @@ listKota = [
   'Jogjakarta', 'Semarang', 'Makassar'
 ]
 
-print('Tanpa enumerate:')
+print('Tanpa penomoran:')
 
 for kota in listKota:
   print(kota)
 
-print('\nDengan enumerate:')
+print('\nDengan penomoran (enumerate):')
 
 for i, kota in enumerate(listKota):
   print(i, kota)

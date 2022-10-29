@@ -16,6 +16,7 @@ daftar = [
     },    
 ]
 
+# variabel siswa akan berisikan elemen dictionary dari list
 for siswa in daftar:
     print("NIM :", siswa['nim'])
     print("Nama :", siswa['nama'])
