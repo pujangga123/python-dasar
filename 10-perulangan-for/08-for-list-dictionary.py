@@ -4,15 +4,15 @@
 daftar = [
     {   "nim":"001",
         "nama":"Budi",
-        "usia":20
+        "nilai":80
     },
     {   "nim":"002",
         "nama": "Ayu",
-        "usia":22
+        "nilai":92
     },
     {   "nim":"003",
         "nama": "Yuda",
-        "usia":23
+        "nilai":77
     },    
 ]
 
@@ -20,5 +20,5 @@ daftar = [
 for siswa in daftar:
     print("NIM :", siswa['nim'])
     print("Nama :", siswa['nama'])
-    print("Usia :", siswa['usia'])
+    print("Nilai :", siswa['nilai'])
     print("=======================")
